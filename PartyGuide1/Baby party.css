@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 70px;
+  position:absolute;
+  right: 440px;
+  width: 610px;
+  top: 30px;
+  left:510px;
+  margin: auto;
+  }
+  
+.Subtitle{
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px rgb(219, 207, 111);
+  font-size: 30px;
+  position: absolute;
+  right: 440px;
+  width: 700px;
+  top: 100px;
+  left:460px;
+  padding: 10px;
+  text-align: center;
+}
+  
+
+.PicFullWidth{
+   
+    width: 100%;
+    top: 0px
+}
+
+
+.about-section {
+    top: 10px;
+    padding: 50px;
+    position: absolute;
+    text-align: center;
+
+    
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 35px;
+    color: rgb(237, 194, 134);
+    text-align:center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .Text-BabyParty {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    position:-ms-page;
+    color: #ffffff; 
+    background-color: rgb(208, 165, 23);
+    text-align:center;
+    padding: 0.3px;
+  }
+
+  a {
+    font-family:'Times New Roman', Times, serif; /* Променете "Your Desired Font" с желания от вас шрифт */
+    font-size: 30px; /* Променете големината на шрифта, ако е необходимо */
+    color: #000; /* Променете цвета на текста на връзката */
+    text-decoration: none; /* Премахнете долната черта под връзката, ако е необходимо */
+    padding: 10px;
+  }
+
+  .Text-Explanatory{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 18px; 
+    text-shadow: 0.5px 0.3px rgb(109, 101, 38);
+    color: rgb(0, 0, 0); 
+    text-align:justify;
+    padding: 20px;
+    z-index: 1; 
+
+
+  }
