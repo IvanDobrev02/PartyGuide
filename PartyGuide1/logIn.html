@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="logIn.css">
+</head>
+<body>
+
+    <img src="Mainphoto.jpg" alt="party" class="PicFullWidth">
+    <div class="about-section">
+        <h1>Party Guide</h1>
+    </div>
+
+  <div class="login-container">
+    <h2>Добави своето място</h2>
+    <form id="loginForm">
+
+      <label for="name">Име на мястото:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="nameOwner">Име на собственика:</label>
+      <input type="text" id="nameOwner" name="nameOwner" required>
+
+      <label for="profilePicture">Добави своето лого</label>
+    <input type="file" id="profilePicture" accept="image/*" style="display: none;" onchange="displayImage(this)">
+
+      <label for="email">Имейл за връзка:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Телефонен номер:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="category">Изберете категория:</label>
+      <select id="category" name="category">
+        <option value="restaurant">Ресторант</option>
+        <option value="food">Храна</option>
+        <option value="dj">DJ</option>
+        <option value="clothing">Магазин за дрехи</option>
+        <option value="decoration">Декорация</option>
+      </select>
+
+
+      <button type="button" onclick="submitForm()">Добави</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

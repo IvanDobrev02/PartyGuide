@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .PicFullWidth{
+    width: 100%;
+    top: 0px;
+    width: 100%;
+    height: 180px; 
+}
+
+
+.about-section {
+    top: 10px;
+    padding: 50px;
+    position: absolute;
+    text-align: center;
+  }
+
+  h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+    position:absolute;
+    right: 440px;
+    width: 610px;
+    top: 30px;
+    left:510px;
+    margin: auto;
+    }
+
+
+  .Text-Title {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    position:-ms-page;
+    color: #ffffff; 
+    background-color: rgb(208, 165, 23);
+    text-align:center;
+    padding: 0.3px;
+  }
+  .restaurant-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .category-card {
+    margin: 20px;
+  }
+  
+  .restaurant-card {
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .restaurant-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .restaurant-card p {
+    margin-top: 10px;
+  }
